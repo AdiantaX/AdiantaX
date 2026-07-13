@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recebemos seu contato — AdiantaX</title>
+<meta name="description" content="Recebemos seus dados. Em breve um especialista da AdiantaX entra em contato.">
+<style>
+  :root{
+    --verde:#00e56a; --verde-escuro:#00a94e; --verde-mais-escuro:#001f10;
+    --preto:#0a0a0a; --cinza:#5c6b64; --cinza-claro:#f2f7f4; --branco:#ffffff;
+    --borda:#e2ece6; --sombra:0 10px 30px rgba(0,60,20,0.08);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;color:var(--preto);
+    background:linear-gradient(180deg,var(--cinza-claro) 0%,var(--branco) 100%);
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    line-height:1.55;padding:24px;
+  }
+  .card{
+    background:var(--branco);border:1px solid var(--borda);border-radius:24px;
+    box-shadow:var(--sombra);max-width:520px;width:100%;padding:48px 36px;text-align:center;
+  }
+  .check{
+    width:76px;height:76px;border-radius:50%;background:var(--verde);
+    display:flex;align-items:center;justify-content:center;margin:0 auto 24px;
+    color:var(--branco);font-size:2.4rem;font-weight:900;
+  }
+  h1{font-size:1.7rem;margin:0 0 12px;letter-spacing:-0.5px;}
+  p{color:var(--cinza);font-size:1.05rem;margin:0 0 28px;}
+  .btn{
+    display:inline-block;font-weight:700;border-radius:8px;padding:14px 28px;
+    border:2px solid var(--verde);background:var(--verde);color:var(--branco);
+    box-shadow:var(--sombra);text-decoration:none;font-size:1rem;
+    transition:transform .15s ease;
+  }
+  .btn:hover{transform:translateY(-2px);background:var(--verde-escuro);border-color:var(--verde-escuro);}
+  .whats{
+    display:block;margin-top:18px;color:var(--verde-escuro);font-weight:600;
+    text-decoration:none;font-size:0.95rem;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="check">✓</div>
+    <h1>Recebemos seus dados!</h1>
+    <p>Obrigado pelo seu interesse. Um especialista da AdiantaX vai analisar o seu caso e entrar em contato em breve com uma proposta feita para você.</p>
+    <a href="https://adiantax.com.br/" class="btn">Voltar ao site</a>
+    <a href="https://wa.me/5519998457373" class="whats" target="_blank" rel="noopener">Ou fale agora no WhatsApp →</a>
+  </div>
+</body>
+</html>
